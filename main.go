@@ -57,7 +57,6 @@ func GetTree(flatList []*Flat) []*Tree {
 func createData(key string, path string) *Tree {
 	tree := &Tree{
 		Key:    key,
-		Path:   path,
 		Type:   getType(key),
 		Childs: make([]*Tree, 0),
 	}
@@ -109,7 +108,6 @@ type Flat struct {
 
 type Tree struct {
 	Key    string
-	Path   string
 	Type   string
 	Childs []*Tree
 }
