@@ -4,7 +4,6 @@
 ## Of usage
 `Converts a list with straight virtual paths to a tree data structure.`
 
-## Convert sample flat list to tree structure
 ### - Flat list
 ```
 |—— "~/Foo/Videos/Clasic/museum.mp4"
