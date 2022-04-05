@@ -2,7 +2,7 @@
 [//]: ===
 
 ## Of usage
-`Converts a list with straight virtual paths to a tree data structure.`
+`Converts a list with flat virtual paths to a tree data structure.`
 
 ### - Flat list
 ```
